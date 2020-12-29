@@ -5,7 +5,8 @@
     <div class="colored-rectangle rect-4"></div>
     <div class="colored-rectangle rect-3"></div>
     <div class="colored-rectangle rect-2"></div>
-    <div class="colored-rectangle rect-1">
+    <div id="main-rect">
+      <div class="colored-rectangle rect-1"></div>
       <div id="text-container">
         <div id="text">rnk</div>
         <div id="underline"></div>
@@ -47,16 +48,22 @@
   position: relative;
   padding: 150px;
 
-  & > .colored-rectangle {
+  .colored-rectangle {
     position: absolute;
     width: 500px;
     height: 500px;
     opacity: 0.87;
   }
+
+  #main-rect {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    opacity: 1;
+  }
 }
 .rect-1 {
   background-color: #34495e;
-  position: relative;
 }
 .rect-2 {
   background-color: #c0392b;
