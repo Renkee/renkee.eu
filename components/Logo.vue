@@ -20,6 +20,7 @@
   font-family: 'Harabara Mais Demo';
   src: url('/logo_font.otf') format('opentype');
 }
+
 #text-container {
   position: absolute;
   inset: 0;
@@ -31,34 +32,36 @@
     color: #ecf0f1;
     font-family: 'Harabara Mais Demo', sans-serif;
     line-height: 0.625;
-    font-size: 320px;
+    font-size: 50vmin * 0.64;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.55);
   }
   #underline {
     background-color: #ecf0f1;
-    height: 24px;
-    width: 424px;
-    margin-left: 13px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    height: 50vmin * 0.048;
+    width: 50vmin * 0.848;
+    margin-left: 50vmin * 0.026;
+    border-bottom-left-radius: 50vmin * 0.848 * 0.0117924528;
+    border-bottom-right-radius: 50vmin * 0.848 * 0.0117924528;
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.55);
   }
 }
 #logo-container {
   position: relative;
-  padding: 150px;
+  width: 50vmin;
+  height: 50vmin;
+  display: inline-block;
 
   .colored-rectangle {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     opacity: 0.87;
   }
 
   #main-rect {
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 100%;
     opacity: 1;
   }
 }
