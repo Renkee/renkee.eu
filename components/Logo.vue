@@ -35,7 +35,7 @@
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.55);
   }
   #underline {
-    background-color: white;
+    background-color: #ecf0f1;
     height: 24px;
     width: 424px;
     margin-left: 13px;
