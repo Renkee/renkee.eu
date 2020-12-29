@@ -1,0 +1,8 @@
+{
+  "prettier.trailingComma": "none",
+  "prettier.singleQuote": true,
+  "prettier.semi": false,
+  "prettier.printWidth": 160,
+  "prettier.packageManager": "yarn",
+  "eslint.packageManager": "yarn"
+}
