@@ -28,7 +28,7 @@
   justify-content: center;
   align-items: center;
   #text {
-    color: white;
+    color: #ecf0f1;
     font-family: 'Harabara Mais Demo', sans-serif;
     line-height: 0.625;
     font-size: 320px;
