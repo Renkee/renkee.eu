@@ -12,6 +12,11 @@
   src: url('/main_font.woff2') format('woff2');
 }
 
+@font-face {
+  font-family: 'Space Mono';
+  src: url('/mono_font.ttf') format('truetype');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -147,7 +152,35 @@ body {
   color: #333;
 }
 h1 {
-  font-size: 3rem;
+  font-size: 3.5rem;
   font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+h2 {
+  font-size: 2.5rem;
+  font-weight: 550;
+  margin-bottom: 0.5rem;
+}
+h3 {
+  font-size: 1.8rem;
+  font-weight: 450;
+  margin-bottom: 0.75rem;
+}
+h4 {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 0.25rem;
+  font-family: 'Space Mono', monospace;
+}
+p {
+  font-size: 1.4rem;
+  font-weight: 420;
+  line-height: 1.225;
+  margin-bottom: 0.65rem;
+}
+.section-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 1rem;
 }
 </style>
