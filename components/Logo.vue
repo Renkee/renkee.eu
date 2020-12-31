@@ -33,6 +33,7 @@
     width: 100%;
     height: 100%;
     opacity: 0;
+    will-change: opacity;
   }
 
   #main-rect {
@@ -57,6 +58,7 @@
     font-size: 50vmin * 0.64;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.55);
     animation: logoTextFade 1s 0.7s both;
+    will-change: opacity;
   }
   #underline {
     background-color: #ecf0f1;
@@ -67,6 +69,7 @@
     border-bottom-right-radius: 50vmin * 0.848 * 0.0117924528;
     box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.55);
     animation: logoTextFade 1s 0.7s both, logoUnderlineAnim 1.8s 0.7s both;
+    will-change: opacity, clip-path;
   }
 }
 

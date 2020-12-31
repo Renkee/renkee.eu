@@ -62,15 +62,18 @@ export default {}
 
 .main-logo {
   animation: scaleDown 1s 0.85s both ease-in-out;
+  will-change: transform;
 }
 
 .main-title {
   animation: pushUpAnim 1s 0.85s both ease-in-out, fadeIn 1s 1.3s both;
+  will-change: opacity, height, transform;
   padding: 5vmin;
 }
 
 .main-text {
   animation: weightGain 1s 1.3s both;
+  will-change: transform;
   font-size: 9vmin;
   font-weight: bold;
   font-family: 'Space Grotesk', sans-serif;
@@ -84,6 +87,7 @@ export default {}
   justify-content: space-evenly;
   align-items: center;
   animation: fadeIn 1s 1.5s both;
+  will-change: opacity;
 
   .social-icon {
     width: 4.5vmin;
