@@ -5,6 +5,13 @@
 </template>
 
 <style lang="scss">
+@font-face {
+  font-family: 'Space Grotesk';
+  font-style: normal;
+  font-weight: 300 700;
+  src: url('/main_font.woff2') format('woff2');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -133,5 +140,14 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+// Own css
+body {
+  font-family: 'Space Grotesk', sans-serif !important;
+  color: #333;
+}
+h1 {
+  font-size: 3rem;
+  font-weight: 600;
 }
 </style>
