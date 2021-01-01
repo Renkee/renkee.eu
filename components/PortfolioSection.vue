@@ -58,7 +58,7 @@ export default {}
 .portfolio-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
-  grid-template-rows: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(2, minmax(0, 1fr));
   grid-template-areas:
     'tft-area'
     'movie-area'
