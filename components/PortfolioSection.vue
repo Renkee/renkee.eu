@@ -40,24 +40,6 @@
             </div>
           </div>
         </div>
-        <div class="porftolio-grid-area freelo-area">
-          <div class="porfolio-grid-img">
-            <img src="/test.jpg" />
-          </div>
-          <div class="porfolio-grid-text">
-            <h4>Vue / Express</h4>
-            <h2>Freelo</h2>
-            <p>
-              A basic CMS and blog system for
-              <a href="https://leagueoflegends.com/">League of Legends</a>
-              guides and other related content.
-            </p>
-            <div class="portfolio-grid-buttons">
-              <a href="https://github.com/Renkee/freelo">GitHub</a>
-              <a href="https://freelo.renkee.eu">Visit</a>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
