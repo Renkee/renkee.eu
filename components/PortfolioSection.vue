@@ -5,7 +5,7 @@
       <div class="portfolio-grid">
         <div class="porftolio-grid-area tft-area">
           <div class="porfolio-grid-img">
-            <img src="/test.jpg" />
+            <img src="/portfolio/tft_app/1.jpg" />
           </div>
           <div class="porfolio-grid-text">
             <h4>Vue / Laravel</h4>
@@ -18,14 +18,18 @@
               builds based on your selected items.
             </p>
             <div class="portfolio-grid-buttons">
-              <a href="https://github.com/Renkee/tft-item-helper">GitHub</a>
-              <a href="https://tft.renkee.eu">Visit</a>
+              <a href="https://tft.renkee.eu">
+                <div class="live">Visit</div>
+              </a>
+              <a href="https://github.com/Renkee/tft-item-helper">
+                <div class="source">GitHub</div>
+              </a>
             </div>
           </div>
         </div>
         <div class="porftolio-grid-area movie-area">
           <div class="porfolio-grid-img">
-            <img src="/test.jpg" />
+            <img src="/portfolio/movie_list/1.jpg" />
           </div>
           <div class="porfolio-grid-text">
             <h4>Vue / Laravel</h4>
@@ -37,8 +41,12 @@
               remains unfinished.
             </p>
             <div class="portfolio-grid-buttons">
-              <a href="https://github.com/hkovesdi/movie-list">GitHub</a>
-              <a href="https://movielist.renkee.eu">Visit</a>
+              <a href="https://movielist.renkee.eu">
+                <div class="live">Visit</div>
+              </a>
+              <a href="https://github.com/hkovesdi/movie-list">
+                <div class="source">GitHub</div>
+              </a>
             </div>
           </div>
         </div>
@@ -67,6 +75,7 @@ export default {}
     'freelo-area';
   align-items: center;
 }
+
 .porftolio-grid-area {
   display: flex;
   flex-wrap: nowrap;
@@ -86,6 +95,28 @@ export default {}
 .porfolio-grid-img img {
   max-width: 100%;
   object-fit: cover;
+}
+
+.portfolio-grid-buttons {
+  a {
+    font-family: 'Space Mono', monospace;
+    text-decoration: none;
+    color: #fafafa;
+    margin-right: 0.5rem;
+    display: inline-block;
+  }
+  div {
+    display: inline-block;
+    padding: 0.5rem;
+    background-color: #666;
+    transition: background-color 0.2s ease-out;
+  }
+  .source:hover {
+    background-color: #252525;
+  }
+  .live:hover {
+    background-color: #34495e;
+  }
 }
 
 @media screen and (min-width: 700px) {
