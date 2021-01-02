@@ -5,7 +5,14 @@
       <div class="portfolio-grid">
         <div class="porftolio-grid-area tft-area">
           <div class="porfolio-grid-img">
-            <img src="/portfolio/tft_app/1.jpg" />
+            <video autoplay loop muted playsinline>
+              <source src="/portfolio/tft_app/tft.webm" type="video/webm" />
+              <source src="/portfolio/tft_app/tft.mp4" type="video/mp4" />
+              <img
+                src="/portfolio/tft_app/tft.jpg"
+                title="Your browser does not support the <video> tag"
+              />
+            </video>
           </div>
           <div class="porfolio-grid-text">
             <h4>Vue / Laravel</h4>
@@ -29,7 +36,20 @@
         </div>
         <div class="porftolio-grid-area movie-area">
           <div class="porfolio-grid-img">
-            <img src="/portfolio/movie_list/1.jpg" />
+            <video autoplay loop muted playsinline>
+              <source
+                src="/portfolio/movie_list/movielist.webm"
+                type="video/webm"
+              />
+              <source
+                src="/portfolio/movie_list/movielist.mp4"
+                type="video/mp4"
+              />
+              <img
+                src="/portfolio/movie_list/movielist.jpg"
+                title="Your browser does not support the <video> tag"
+              />
+            </video>
           </div>
           <div class="porfolio-grid-text">
             <h4>Vue / Laravel</h4>

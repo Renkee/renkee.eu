@@ -189,4 +189,9 @@ a {
 a:hover {
   color: #582d69;
 }
+video {
+  /* override other styles to make responsive */
+  width: 100% !important;
+  height: auto !important;
+}
 </style>
