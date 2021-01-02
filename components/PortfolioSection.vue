@@ -31,8 +31,10 @@
             <h4>Vue / Laravel</h4>
             <h2>Movie List</h2>
             <p>
-              A web application that makes it simple to keep track of the movies
-              you've watched and rate them. I did most of the frontend work.
+              Track and rate the movies you've watched. Made in collaboration
+              with
+              <a href="https://github.com/hkovesdi">Hunor</a>. This project
+              remains unfinished.
             </p>
             <div class="portfolio-grid-buttons">
               <a href="https://github.com/hkovesdi/movie-list">GitHub</a>
