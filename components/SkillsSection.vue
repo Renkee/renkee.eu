@@ -7,16 +7,15 @@
           I consider myself to be full-stack, but I have a higher affinity
           towards frontend.
         </p>
-        <h3>Some of the tools I've used:</h3>
-        <h4>Forgot most of</h4>
-        <p>Scheme, Haskell, MongoDB</p>
+        <h4>Confident with</h4>
+        <p>HTML, CSS, Javascript, Vue, Sass, git, Docker</p>
         <h4>Know my way around</h4>
         <p>
           Linux, nginx, C#, NodeJS, MySQL, PHP, Laravel, GraphQL, Service
           Workers
         </p>
-        <h4>Confident with</h4>
-        <p>HTML, CSS, Javascript, Vue, Sass, git, Docker</p>
+        <h4>Forgot most of</h4>
+        <p>Scheme, Haskell, MongoDB</p>
       </div>
     </div>
   </div>
