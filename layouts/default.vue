@@ -183,4 +183,10 @@ p {
   margin: 0 auto;
   padding: 4rem 1rem;
 }
+a {
+  color: #9b59b6;
+}
+a:hover {
+  color: #582d69;
+}
 </style>
