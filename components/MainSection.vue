@@ -92,6 +92,8 @@ export default {}
   .social-icon {
     width: 4.5vmin;
     height: 4.5vmin;
+    min-width: 24px;
+    min-height: 24px;
     transition: fill 0.15s ease-in;
     padding: 1vmin;
   }
