@@ -8,10 +8,17 @@
             <video autoplay loop muted playsinline>
               <source src="/portfolio/tft_app/tft.webm" type="video/webm" />
               <source src="/portfolio/tft_app/tft.mp4" type="video/mp4" />
-              <img
-                src="/portfolio/tft_app/tft.jpg"
-                title="Your browser does not support the <video> tag"
-              />
+              <picture>
+                <source
+                  srcset="/portfolio/tft_app/tft.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="/portfolio/tft_app/tft.jpg"
+                  alt="TFT image"
+                  title="Your browser does not support the <video> tag"
+                />
+              </picture>
             </video>
           </div>
           <div class="porfolio-grid-text">
@@ -45,10 +52,17 @@
                 src="/portfolio/movie_list/movielist.mp4"
                 type="video/mp4"
               />
-              <img
-                src="/portfolio/movie_list/movielist.jpg"
-                title="Your browser does not support the <video> tag"
-              />
+              <picture>
+                <source
+                  srcset="/portfolio/movie_list/movielist.webp"
+                  type="image/webp"
+                />
+                <img
+                  src="/portfolio/movie_list/movielist.jpg"
+                  alt="MovieList image"
+                  title="Your browser does not support the <video> tag"
+                />
+              </picture>
             </video>
           </div>
           <div class="porfolio-grid-text">
