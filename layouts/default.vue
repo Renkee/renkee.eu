@@ -175,7 +175,7 @@ h4 {
 p {
   font-size: 1.4rem;
   font-weight: 420;
-  line-height: 1.225;
+  line-height: calc(1.7rem + 0.2vw);
   margin-bottom: 0.65rem;
 }
 .section-container {

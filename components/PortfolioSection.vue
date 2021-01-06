@@ -161,6 +161,9 @@ export default {}
   .porfolio-grid-text {
     width: 47.5%;
     margin-bottom: 4rem;
+    p {
+      line-height: 1.25;
+    }
   }
 
   .porfolio-grid-img {
