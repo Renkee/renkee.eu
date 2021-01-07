@@ -71,7 +71,7 @@
             <p>
               Track and rate the movies you've watched. Made in collaboration
               with
-              <a href="https://github.com/hkovesdi">Hunor</a>. This project
+              <a href="https://github.com/hkovesdi">hkovesdi</a>. This project
               remains unfinished.
             </p>
             <div class="portfolio-grid-buttons">
