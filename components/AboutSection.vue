@@ -20,6 +20,11 @@
         to achieve that, I've spent most of my time developing hobby projects,
         some of which are displayed below.
       </p>
+      <p>
+        My CV is available here:
+        <a href="/cv/lajvort-rene_cv_hu.pdf">Hungarian version</a>,
+        <a href="/cv/rene-lajvort_cv_en.pdf">English version</a>
+      </p>
     </div>
   </div>
 </template>
@@ -32,5 +37,13 @@ export default {}
 .about-section {
   background-color: #34495e;
   color: #ecf0f1;
+
+  a {
+    color: #e6b3eb;
+    text-decoration: none;
+    &:hover {
+      color: #edcef0;
+    }
+  }
 }
 </style>
