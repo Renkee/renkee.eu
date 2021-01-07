@@ -10,12 +10,9 @@
         <h4>Confident with</h4>
         <p>HTML, CSS, Javascript, Vue, Sass, git, Docker</p>
         <h4>Know my way around</h4>
-        <p>
-          Linux, nginx, C#, NodeJS, MySQL, PHP, Laravel, GraphQL, Service
-          Workers
-        </p>
+        <p>Linux, nginx, C#, NodeJS, jQuery, PWA, MySQL, PHP, Laravel</p>
         <h4>Forgot most of</h4>
-        <p>Scheme, Haskell, MongoDB</p>
+        <p>Scheme, Haskell, MongoDB, GraphQL</p>
       </div>
     </div>
   </div>
