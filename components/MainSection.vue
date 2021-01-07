@@ -67,7 +67,7 @@ export default {}
 
 .main-title {
   animation: pushUpAnim 1s 0.85s both ease-in-out, fadeIn 1s 1.3s both;
-  will-change: opacity, height, transform;
+  will-change: opacity, height;
   padding: 5vmin;
 }
 
