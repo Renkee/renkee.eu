@@ -1,8 +1,8 @@
 <template>
-  <div class="portfolio-section">
+  <div class="personal-projects-section">
     <div class="section-container">
-      <h1>portfolio</h1>
-      <div class="portfolio-grid">
+      <h1>personal projects</h1>
+      <div class="personal-projects-grid">
         <div class="porftolio-grid-area tft-area">
           <div class="porfolio-grid-img">
             <video autoplay loop muted playsinline>
@@ -31,7 +31,7 @@
               >
               builds based on your selected items.
             </p>
-            <div class="portfolio-grid-buttons">
+            <div class="personal-projects-grid-buttons">
               <a href="https://tft.renkee.eu">
                 <div class="live">Visit</div>
               </a>
@@ -74,7 +74,7 @@
               <a href="https://github.com/hkovesdi">hkovesdi</a>. This project
               remains unfinished.
             </p>
-            <div class="portfolio-grid-buttons">
+            <div class="personal-projects-grid-buttons">
               <a href="https://movielist.renkee.eu">
                 <div class="live">Visit</div>
               </a>
@@ -94,12 +94,12 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-.portfolio-section {
+.personal-projects-section {
   background-color: #fafafa;
   color: #333;
 }
 
-.portfolio-grid {
+.personal-projects-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
   grid-template-rows: repeat(2, minmax(0, 1fr));
@@ -131,7 +131,7 @@ export default {}
   object-fit: cover;
 }
 
-.portfolio-grid-buttons {
+.personal-projects-grid-buttons {
   a {
     font-family: 'Space Mono', monospace;
     text-decoration: none;

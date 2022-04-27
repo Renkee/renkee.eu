@@ -7,23 +7,25 @@
         websites on and off since I was 12 years old.
       </p>
       <p>
-        I quit high school in 2016, because I wanted to spend my time learning
-        about topics that interest me, like programming. Sadly, once my initial
-        burst of motivation ran out, more and more of my time was spent on
-        playing video games and other not so useful activities. I've still
-        learnt a lot in this period of my life, but it could've gone a lot
-        better.
+        I've been fond of computers ever since my childhood. I got interested in
+        programming through the games I've played back then, like MTA:SA and
+        Minecraft. These games helped me learn about configuring, scripting and
+        hosting them.
       </p>
       <p>
-        In 2019, I've finally finished high school at an evening school. Since
-        then, I've decided that I want to do web development for a living, and
-        to achieve that, I've spent most of my time developing hobby projects,
-        some of which are displayed below.
+        I've quit high school in 2016, because I've found that it was
+        inefficient at teaching me about topics that actually interest me. Since
+        then, I've been seriously learning about programming and related fields.
+      </p>
+      <p>
+        In 2021, I've finally got a job at a company called WebOrigo. I've
+        worked (and still do) on multiple projects there, most of the time solo,
+        but I've acquired experience working with other people too.
       </p>
       <p>
         My CV is available here:
-        <a href="/cv/lajvort-rene_cv_hu.pdf">Hungarian version</a>,
-        <a href="/cv/rene-lajvort_cv_en.pdf">English version</a>
+        <a href="/cv/cv_hu.pdf">Hungarian version</a>,
+        <a href="/cv/cv_en.pdf">English version</a>
       </p>
     </div>
   </div>

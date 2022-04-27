@@ -8,9 +8,9 @@
           towards frontend.
         </p>
         <h4>Confident with</h4>
-        <p>HTML, CSS, Javascript, Vue, Sass, git, Docker</p>
+        <p>HTML, CSS, Javascript, Vue, PHP, Laravel, Sass, git, Docker</p>
         <h4>Know my way around</h4>
-        <p>Linux, nginx, C#, NodeJS, jQuery, PWA, MySQL, PHP, Laravel</p>
+        <p>NodeJS, MySQL, Linux, PWA, nginx, C#</p>
         <h4>Forgot most of</h4>
         <p>Scheme, Haskell, MongoDB, GraphQL</p>
       </div>

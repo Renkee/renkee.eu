@@ -12,17 +12,6 @@
             />
           </svg>
         </a>
-        <a
-          href="https://youtube.com/channel/UCHkOU7-Be46kbwVD7zxmeoA"
-          class="social-icon icon-youtube"
-        >
-          <svg role="img" viewBox="0 0 24 24">
-            <title>YouTube</title>
-            <path
-              d="M23.499 6.203a3.008 3.008 0 00-2.089-2.089c-1.87-.501-9.4-.501-9.4-.501s-7.509-.01-9.399.501a3.008 3.008 0 00-2.088 2.09A31.258 31.26 0 000 12.01a31.258 31.26 0 00.523 5.785 3.008 3.008 0 002.088 2.089c1.869.502 9.4.502 9.4.502s7.508 0 9.399-.502a3.008 3.008 0 002.089-2.09 31.258 31.26 0 00.5-5.784 31.258 31.26 0 00-.5-5.808zm-13.891 9.4V8.407l6.266 3.604z"
-            />
-          </svg>
-        </a>
         <a href="https://twitter.com/renkee_" class="social-icon icon-twitter">
           <svg role="img" viewBox="0 0 24 24">
             <title>Twitter</title>
@@ -36,6 +25,17 @@
             <title>Mail</title>
             <path
               d="M24 4.5v15c0 .85-.65 1.5-1.5 1.5H21V7.387l-9 6.463-9-6.463V21H1.5C.649 21 0 20.35 0 19.5v-15c0-.425.162-.8.431-1.068C.7 3.16 1.076 3 1.5 3H2l10 7.25L22 3h.5c.425 0 .8.162 1.069.432.27.268.431.643.431 1.068z"
+            />
+          </svg>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/ren%C3%A9-lajvort-a28021135/"
+          class="social-icon icon-linkedin"
+        >
+          <svg role="img" viewBox="0 0 448 512">
+            <title>LinkedIn</title>
+            <path
+              d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
             />
           </svg>
         </a>
@@ -117,6 +117,15 @@ export default {}
   fill: rgb(125, 188, 228);
   &:hover {
     fill: rgb(29, 161, 242);
+  }
+}
+
+.icon-linkedin {
+  fill: rgb(79, 153, 227);
+  margin-bottom: 5px;
+  transform: scale(0.9);
+  &:hover {
+    fill: rgb(10, 102, 194);
   }
 }
 

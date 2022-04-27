@@ -2,8 +2,9 @@
   <div class="container">
     <MainSection></MainSection>
     <AboutSection></AboutSection>
-    <PortfolioSection></PortfolioSection>
+    <WorkExperienceSection></WorkExperienceSection>
     <SkillsSection></SkillsSection>
+    <PortfolioSection></PortfolioSection>
   </div>
 </template>
 
